@@ -1,0 +1,39 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore data files
+backend/biometrics_m10_imputed_clustered_changes.pkl
+notebooks/data/
+notebooks/data_cleaned/
+
+# Ignore Jupyter Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore node_modules directory
+biofitviz-visualizations/node_modules/
+
+# Ignore build output
+biofitviz-visualizations/build/
+
+# Ignore log files
+biofitviz-visualizations/npm-debug.log
+biofitviz-visualizations/yarn-debug.log
+biofitviz-visualizations/yarn-error.log
+
+# Ignore coverage directory
+biofitviz-visualizations/coverage/
+
+# Ignore environment variables file
+biofitviz-visualizations/.env
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore all CSV and TXT files
+*.csv
+*.txt
