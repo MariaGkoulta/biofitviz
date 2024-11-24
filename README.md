@@ -34,6 +34,7 @@ In the root directory run:
 Run the flask app:
 
 ```cd ../backend```
+
 ```python app.py```
 
 
@@ -41,7 +42,9 @@ Run the flask app:
 In the root directory run:
 
 ```cd biofitviz-visualizations```
+
 ```npm install```
+
 ```npm start```
 
 This will start the frontend development server at http://localhost:3000/.
