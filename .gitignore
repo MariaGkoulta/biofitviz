@@ -33,7 +33,3 @@ biofitviz-visualizations/.env
 # Ignore IDE specific files
 .vscode/
 .idea/
-
-# Ignore all CSV and TXT files
-*.csv
-*.txt

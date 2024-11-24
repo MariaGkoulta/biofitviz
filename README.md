@@ -25,22 +25,30 @@ Biofitviz aims to utilize time series data on biometric metrics and exercise act
 ### Target User
 Technogym, a fitness company that manufactures gym equipment, will use Biofitviz to analyze data and tailor workout plans based on user biometrics and exercise preferences. Data-driven insights will help identify effective workout plans, improving Technogym’s services and equipment. The interactive dashboard with user clusters and trajectory plots can be incorporated into Technogym’s digital platforms.
 
+## Download repo
+``` 
+git clone https://github.com/MariaGkoulta/biofitviz.git
+cd biofitviz
+```
+
 ## Backend
-In the root directory run:
+
+To start the backend server in the root directory run:
 
 ```pip install -r backend/requirements.txt```
 
 
-Run the flask app:
+Then run the flask app:
 
 ```
-cd ../backend
+cd backend
 python app.py
 ```
 
 
 ## Frontend
-In the root directory run:
+Make sure you have [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed.
+To start the frontend server in the root directory run:
 
 ```
 cd biofitviz-visualizations
