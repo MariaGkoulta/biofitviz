@@ -1,5 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure body and html fill the viewport */
+  overflow: hidden; /* Prevent scrolling */
+}
+
 .App {
   text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .App-logo {
@@ -36,3 +47,80 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+.App {
+  position: relative;
+}
+
+.App-header {
+  /* Your existing header styles */
+}
+
+main {
+  position: relative;
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  width: 220px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 10px;
+  z-index: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.legend-section h3 {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 4px;
+  color: black; /* Ensure text is readable on colored background */
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: #000;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: none; /* Hide the color box as the entire item is now colored */
+}
+
+.visualization-container {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start (left) */
+  width: 100%; /* Ensure the container takes full width */
+}
+
+.visualization-left {
+  flex: 1; /* Allow the visualization to take available space */
+}
+
+.histogram-box {
+  width: 300px; /* Fixed width for the histogram box */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10px; /* Space between visualization and histogram */
+  flex-shrink: 0; /* Prevent the box from shrinking */
+}
+
+.legend-section {
+  margin-top: 10px;
+}
+
