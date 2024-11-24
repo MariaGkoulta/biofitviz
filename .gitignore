@@ -30,6 +30,8 @@ biofitviz-visualizations/coverage/
 # Ignore environment variables file
 biofitviz-visualizations/.env
 
+.env
+
 # Ignore IDE specific files
 .vscode/
 .idea/
