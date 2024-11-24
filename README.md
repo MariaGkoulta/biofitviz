@@ -27,24 +27,21 @@ Technogym, a fitness company that manufactures gym equipment, will use Biofitviz
 
 ## Backend
 In the root directory run:
-'''
-pip install -r backend/requirements.txt
-'''
+
+```pip install -r backend/requirements.txt```
+
 
 Run the flask app:
 
-'''
-cd ../backend
-python app.py
-'''
+```cd ../backend```
+```python app.py```
+
 
 ## Frontend
 In the root directory run:
 
-'''
-cd biofitviz-visualizations
-npm install
-npm start
-'''
+```cd biofitviz-visualizations```
+```npm install```
+```npm start```
 
 This will start the frontend development server at http://localhost:3000/.
